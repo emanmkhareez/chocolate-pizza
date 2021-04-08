@@ -1,3 +1,4 @@
+
 #hed{
     display: inline-block;
     
@@ -5,13 +6,156 @@
 #img{
     float: right;
 }
+
 #img1{
+    position: relative;
+    right:6px;
     float:left;
+    padding-left: 6px;
 }
- div ul{
-     margin-left: 900px;
-    
-     margin-top:-0px;
+nav{
+    position: relative;
+    bottom:50px ;
     display: inline-block;
     float:right;
+    right:430px ;
+  
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+}
+ #imgmain{
+     position: relative;
+    bottom: 10px;
+} 
+body{
+    position: relative;
+    left: 150px;
+    top:50px;
+}
+#line{
+    background-color:gray ;
+    width: 900px;
+    height: 30px;
+}
+#line p{
+    color: gray;
+    size: 10px;
+}
+#printpic{
+    position: relative;
+    left: 830px;
+    bottom: 10px;
+
+}
+#p2{
+    position: relative;
+    bottom:10px;
+    color: rgb(221, 218, 218);
+}
+#print{
+    position:absolute;
+    top: 220px;
+    left: 850px;
+    color: rgb(221, 218, 218);
+}
+#pr3{
+ width:900px ;
+ 
+}
+#imgline{
+    position: absolute;
+
+  z-index: -1;
+}
+#form1{
+float:right;
+position: relative;
+right:500px;
+top:80px;
+}
+#form2{
+   position: relative;
+   left:100px;
+   top:80px;
+    float:left;
+
+}
+input[type=checkbox]:checked + label {
+    color:black;
+    text-decoration: line-through;
+  }
+.checked{
+    font-size: 5em;
+  color:black;
+  text-decoration: line-through;
+}
+#line2{
+    background-color:gray ;
+    width: 900px;
+    height: 30px; 
+    position: relative;
+    top: 340px;
+}
+#line2 p{
+    color: gray;
+    size: 10px;
+}
+#last_prt{
+    position: relative;
+    top: 350px;
+}#last_prt img{
+    position: relative;
+    right:300px;
+}
+#last_prt p{
+    position: relative;
+    left: 120px;
+    bottom:70px;
+}
+#last_prt h3{
+    position: relative;
+    left: 120px;
+    bottom:70px;
+}
+.button1 {background-color: #c5724b;
+position: relative;
+left: 735px;
+bottom: 160px;
+color: white;
+padding: 14px 30px;
+
+}
+footer{
+    position: relative;
+    top: 300px;
+}
+hr{
+    width: 900px;
+    position: relative;
+    right:200px;
+    z-index: -1;
+}
+#lastpic{
+    position: relative;
+    left:400px;
+    top:30px;
+ 
+}
+#lastp{
+    position:relative;
+    left: 320px;
+    top: 30px;
+    color: rgb(128, 124, 124);
+}
+
+.space{
+    padding-left: 20px;
+}
+#firstp{
+    position: relative;
+    bottom:25px;
+    color: rgb(221, 218, 218);
+    left: 45px;
+
 }
