@@ -1,0 +1,17 @@
+#hed{
+    display: inline-block;
+    
+}
+#img{
+    float: right;
+}
+#img1{
+    float:left;
+}
+ div ul{
+     margin-left: 900px;
+    
+     margin-top:-0px;
+    display: inline-block;
+    float:right;
+}
